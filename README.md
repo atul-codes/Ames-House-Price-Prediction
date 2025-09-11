@@ -36,6 +36,14 @@ To begin the analysis, I generated a correlation heatmap to get a high-level und
 
 * The final model achieved an **R-squared score of [Your R² Score Here]** on the test set.
 * The feature importance analysis revealed that `OverallQual`, `TotalSF`, and `GrLivArea` were the most significant predictors of a home's sale price, confirming that overall quality and size are paramount.
+  
+Beyond prediction accuracy, I wanted to understand what features were most influential. The feature importance plot below shows the top 15 drivers of sale price according to the model. This confirms that factors like `OverallQual` and the engineered feature `TotalSF` are critical in determining a home's value.
+
+![Top 15 Most Important Features](top_15_features_plot.png)
+
+After training, the model's performance was evaluated on the held-out test set. The scatter plot below compares the actual sale prices to the prices predicted by the model. The tight clustering of points around the 45-degree line indicates a high degree of accuracy.
+
+![Actual vs. Predicted Prices on Test Data](test_set_predictions.png)
 
 ---
 
