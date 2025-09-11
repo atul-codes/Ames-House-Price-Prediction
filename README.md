@@ -14,6 +14,10 @@ The project follows a structured approach to ensure the data is well-understood 
 
 2.  **Exploratory Data Analysis (EDA)**: I used visualizations like histograms, heatmaps, and boxplots to uncover patterns, identify correlations between features, and understand the overall data distribution. The correlation heatmap was particularly useful for identifying key relationships, such as the strong positive correlation between `OverallQual` and `SalePrice`.
 
+To begin the analysis, I generated a correlation heatmap to get a high-level understanding of how the numerical features relate to each other and to the `SalePrice`. This helped in quickly identifying multi-collinearity and the features that were most promising for prediction.
+
+![Correlation Heatmap of Features](HeatMap.png)
+
 3.  **Feature Engineering**: This was a critical step to enhance the model's predictive power. I created several new, intuitive features from the existing data:
     * `TotalSF`: A combined measure of total square footage (Basement + 1st Floor + 2nd Floor).
     * `TotalBath`: A weighted sum of all full and half bathrooms.
