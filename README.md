@@ -1,7 +1,6 @@
-# Ames-House-Price-Prediction
+# Ames House Price Prediction with XGBoost 🏡
 An end-to-end machine learning project to predict house prices using the Ames Housing dataset. This repository covers the complete data science pipeline: data cleaning, exploratory analysis, feature engineering, and modeling with XGBoost.
 
-# Ames House Price Prediction with XGBoost 🏡
 
 This project is a comprehensive dive into the Ames Housing dataset, with the goal of predicting the final sale price of homes. It demonstrates a complete machine learning workflow, from initial data exploration to final model interpretation.
 
